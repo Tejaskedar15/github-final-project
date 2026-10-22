@@ -1,3 +1,4 @@
+Command: git branch -a
   bug-fix-revert
   bug-fix-typo
 * main
@@ -5,3 +6,19 @@
   remotes/origin/bug-fix-revert
   remotes/origin/bug-fix-typo
   remotes/origin/main
+
+Command: git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   github-branches
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	bug-fix-revert.txt
+	prs.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
